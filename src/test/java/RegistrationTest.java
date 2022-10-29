@@ -5,9 +5,8 @@ import PO.MainPageObject;
 import PO.RegistrationPageObject;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Description;
-import org.junit.Test;
-
 import io.qameta.allure.junit4.DisplayName;
+import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
