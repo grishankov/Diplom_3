@@ -1,0 +1,11 @@
+PO\Configurations.class
+UserOperations.class
+Models\User.class
+PO\RegistrationPageObject.class
+Models\UserRegister.class
+PO\PasswordPageObject.class
+BaseSpec.class
+PO\MainPageObject.class
+PO\PersonalPageObject.class
+PO\LoginPageObject.class
+Models\Token.class
