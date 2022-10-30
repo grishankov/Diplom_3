@@ -8,7 +8,9 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
+//создание рандомного юзера
 public class UserOperations {
+
 
     public Map<String, String> register() {
         String email = RandomStringUtils.randomAlphabetic(10) + Configurations.EMAIL_POSTFIX;

@@ -1,5 +1,6 @@
 package Models;
 
+//создание моделей
 public class UserRegister {
     private boolean success;
     private String accessToken;
@@ -13,6 +14,7 @@ public class UserRegister {
     public void setSuccess(boolean success) {
         this.success = success;
     }
+
 
     public String getAccessToken() {
         return accessToken;

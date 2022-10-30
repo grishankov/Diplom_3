@@ -1,5 +1,6 @@
 package PO;
 
+// константы
 public interface Configurations {
     String PATH_PAGE_LOGIN = "/login";
     String BASE_URL = "https://stellarburgers.nomoreparties.site";
@@ -10,5 +11,7 @@ public interface Configurations {
     String PATH_PAGE_REGISTER = "/register";
     int MAX_EMAIL_LENGTH = 20;
     int MAX_PASSWORD_LENGTH = 25;
+
+
     int MAX_NAME_LENGTH = 30;
 }

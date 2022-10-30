@@ -1,4 +1,5 @@
 package PO;
+//создание РО
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
@@ -48,6 +49,7 @@ public class RegistrationPageObject {
     public SelenideElement getBadPasswordNotification() {
         return badPasswordNotification;
     }
+
 
     @Step("User registration")
     public void registerUser(String nameUser, String emailUser, String passwordUser) {

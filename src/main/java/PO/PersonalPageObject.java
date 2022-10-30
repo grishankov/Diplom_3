@@ -1,4 +1,5 @@
 package PO;
+//создание РО
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
@@ -11,6 +12,7 @@ public class PersonalPageObject {
 
     @FindBy(how = How.XPATH, using = ".//button[text()='Выход']")
     private SelenideElement buttonLogout;
+
 
     public SelenideElement getLabelProfile() {
         return labelProfile;
