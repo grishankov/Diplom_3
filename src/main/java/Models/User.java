@@ -1,4 +1,5 @@
 package Models;
+//создание моделей
 
 import groovyjarjarantlr4.v4.runtime.misc.NotNull;
 import org.apache.commons.lang3.RandomStringUtils;

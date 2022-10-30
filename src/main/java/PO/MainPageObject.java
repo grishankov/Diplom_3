@@ -1,4 +1,5 @@
 package PO;
+//создание РО
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
@@ -41,6 +42,7 @@ public class MainPageObject {
 
     @FindBy(how = How.XPATH, using = "(.//ul[@class='BurgerIngredients_ingredients__list__2A-mT'])[1]")
     private SelenideElement catalogBun;
+
 
     @FindBy(how = How.XPATH, using = "(.//ul[@class='BurgerIngredients_ingredients__list__2A-mT'])[2]")
     private SelenideElement catalogSouse;

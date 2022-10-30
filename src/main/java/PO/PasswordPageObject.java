@@ -1,4 +1,5 @@
 package PO;
+//создание РО
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
@@ -11,6 +12,7 @@ public class PasswordPageObject {
 
     @FindBy(how = How.XPATH, using = ".//a[text()='Войти']")
     private SelenideElement buttonSignIn;
+
 
     public SelenideElement getFieldForEmail() {
         return fieldForEmail;

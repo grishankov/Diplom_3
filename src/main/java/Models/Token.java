@@ -19,4 +19,5 @@ public class Token {
     public static void setRefreshToken(String refreshToken) {
         Token.refreshToken = refreshToken;
     }
+
 }

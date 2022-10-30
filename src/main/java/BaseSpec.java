@@ -3,8 +3,10 @@ import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.http.ContentType.JSON;
 
+//стартовый набор
 public class BaseSpec {
     public static final String BASE_URL = "https://stellarburgers.nomoreparties.site/api/";
+
 
     public static RequestSpecification getBaseSpec() {
         return new RequestSpecBuilder()
